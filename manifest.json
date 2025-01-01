@@ -1,0 +1,50 @@
+{
+	"name": "custom-emojis",
+	"description": "MailExtension to add your own emojis",
+	"version": "1.0.202501012",
+	"icons": {
+		"48": "icons/icon.svg",
+		"96": "icons/icon.svg"
+	},
+	"options_ui": {
+		"browser_style": true,
+		"page": "options/options.html"
+	},
+	"author": "Korbinian Kapsner",
+	"background": {
+		"scripts": [
+			"lib/selectedEmojis.js",
+			"main.js"
+		]
+	},
+	"permissions": [
+		"compose",
+		"menus",
+		"tabs",
+		"storage"
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "custom-emojis@kkapsner.de",
+			"update_url": "https://custom-emojis.kkapsner.de/versions/updates.json",
+			"strict_min_version": "120.0"
+		}
+	},
+	"compose_action": {
+		"browser_style": true,
+		"default_area": "formattoolbar",
+		"default_icon": "icons/compose_action.svg",
+		"default_label": "Custom emojis",
+		"default_title": "Custom emojis",
+		"type": "menu",
+		"theme_icons": [
+			{
+				"dark": "icons/compose_action_dark.svg",
+				"light": "icons/compose_action_light.svg",
+				"size": 32
+			}
+		]
+	},
+	"default_locale": "en",
+	"manifest_version": 2
+}

@@ -1,0 +1,4 @@
+mail-ext-artifacts/
+versions/*.xpi
+node_modules/
+.ftpConfig.json

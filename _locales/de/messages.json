@@ -1,0 +1,26 @@
+{
+	"language": {
+		"message": "de",
+		"description": ""
+	},
+	"settings.title": {
+		"message": "Einstellungen für custom-emojis",
+		"description": "Title of the settings page"
+	},
+	"settings.addEmoji": {
+		"message": "Emoji hinzufügen",
+		"description": "Tooltip for the button to add an emoji"
+	},
+	"settings.removeEmoji": {
+		"message": "Emoji entfernen",
+		"description": "Tooltip for the button to remove an emoji"
+	},
+	"settings.search": {
+		"message": "Suchen",
+		"description": "Heading for the emoji search"
+	},
+	"settings.search.placeholder": {
+		"message": "Mindestens 3 Buchstaben zur Suche eingeben",
+		"description": "Placeholder for the search input"
+	}
+}

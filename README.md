@@ -1,4 +1,4 @@
-# Custom emojis
+# Custom emojis [![codebeat badge](https://codebeat.co/badges/0c5e8465-da17-4bc9-938b-4df33c9728c7)](https://codebeat.co/projects/github-com-kkapsner-custom-emojis-master)
 My wife complained that she did not have a specific emoji in the emoji menu of Thunderbird... so I built her a customizable menu to have all the emojis she needs.
 
 ## Installation

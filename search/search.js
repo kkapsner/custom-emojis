@@ -11,7 +11,7 @@
 		document.querySelector(".searchResults"),
 		[
 			{
-				text: String.fromCodePoint(10133, 65039),
+				text: String.fromCodePoint(0x2795, 0xFE0F),
 				title: messenger.i18n.getMessage("settings.addEmoji"),
 				callback: (emoji) => selectedEmojis.add(emoji.codes, emoji.name)
 			},

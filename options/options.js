@@ -20,7 +20,7 @@
 		container.appendChild(textInput);
 		
 		const removeButton = document.createElement("button");
-		removeButton.textContent = String.fromCodePoint(10006, 65039);
+		removeButton.textContent = String.fromCodePoint(0x2716, 0xFE0F);
 		removeButton.title = messenger.i18n.getMessage("settings.removeEmoji");
 		removeButton.addEventListener("click", () => selectedEmojis.remove(emoji.codes));
 		container.appendChild(removeButton);
@@ -41,7 +41,7 @@
 		document.querySelector(".search"),
 		document.querySelector(".searchResults"),
 		[{
-			text: String.fromCodePoint(10133, 65039),
+			text: String.fromCodePoint(0x2795, 0xFE0F),
 			title: messenger.i18n.getMessage("settings.addEmoji"),
 			callback: (emoji) => selectedEmojis.add(emoji.codes, emoji.name)
 		}]

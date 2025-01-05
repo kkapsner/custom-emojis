@@ -13,6 +13,17 @@
 			}
 		});
 	});
+	messenger.runtime.onMessage.addListener(function(message){
+		switch (message.type){
+			case "proxy":
+				ports.filter(function(port){
+					return port.sender.tab.id === message.tabId;
+				}).forEach(function(port){
+					port.postMessage(message.message);
+				});
+				break;
+		}
+	});
 	
 	selectedEmojis.onUpdate(async function(emojis){
 		await messenger.menus.removeAll();
@@ -30,6 +41,23 @@
 				},
 				title: `${insertText} ${emoji.text}`,
 			});
+		});
+		messenger.menus.create({
+			contexts: ["compose_action_menu"],
+			type: "separator"
+		});
+		messenger.menus.create({
+			contexts: ["compose_action_menu"],
+			onclick: function(_menuItem, windowInfo){
+				messenger.windows.create({
+					url: browser.runtime.getURL("search/search.html?tabId=" + windowInfo.id),
+					allowScriptsToClose: true,
+					height: 600,
+					width: 800,
+					type: "detached_panel"
+				});
+			},
+			title: messenger.i18n.getMessage("compose_menu.search")
 		});
 	});
 	messenger.composeScripts.register({

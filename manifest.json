@@ -1,7 +1,7 @@
 {
 	"name": "custom-emojis",
 	"description": "MailExtension to add your own emojis",
-	"version": "1.0.202501012",
+	"version": "1.0.202501050",
 	"icons": {
 		"48": "icons/icon.svg",
 		"96": "icons/icon.svg"

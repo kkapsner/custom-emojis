@@ -22,5 +22,21 @@
 	"settings.search.placeholder": {
 		"message": "Type at least 3 characters to search",
 		"description": "Placeholder for the search input"
+	},
+	"compose_menu.search": {
+		"message": "Search...",
+		"description": "Text for the search in the compose menu"
+	},
+	"search.title": {
+		"message": "Search emoji",
+		"description": "Title of the search popup"
+	},
+	"search.heading": {
+		"message": "Search emoji to add or insert",
+		"description": "Heading of the search popup"
+	},
+	"search.insert": {
+		"message": "Insert emoji",
+		"description": "Tooltip for the botton to insert an emoji"
 	}
 }

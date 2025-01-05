@@ -2,6 +2,42 @@
 	"addons": {
 		"custom-emojis@kkapsner.de": {
 			"updates": [
+				{
+					"version": "1.0.0",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.0.xpi"
+				},
+				{
+					"version": "1.0.202412300",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202412300.xpi"
+				},
+				{
+					"version": "1.0.202412301",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202412301.xpi"
+				},
+				{
+					"version": "1.0.202412302",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202412302.xpi"
+				},
+				{
+					"version": "1.0.202412310",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202412310.xpi"
+				},
+				{
+					"version": "1.0.202501010",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202501010.xpi"
+				},
+				{
+					"version": "1.0.202501011",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202501011.xpi"
+				},
+				{
+					"version": "1.0.202501012",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202501012.xpi"
+				},
+				{
+					"version": "1.0.202501050",
+					"update_link": "https://custom-emojis.kkapsner.de/versions/custom-emojis-1.0.202501050.xpi"
+				}
 			]
 		}
 	}

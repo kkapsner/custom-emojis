@@ -12,7 +12,7 @@ h1 {
 	grid-template-columns: [start] max-content auto 1.75em [end];
 }
 
-.emojiSetting, .searchResult, .searchResults .section, .searchResults .group {
+.emojiSetting {
 	display: grid;
 	grid-column: start / end;
 	grid-template-columns: subgrid;
@@ -24,17 +24,8 @@ h1 {
 	padding: 0 0.2em;
 }
 
-.emojiSetting button, .searchResult button {
+.emojiSetting button {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 0.8em;
-}
-
-.search {
-	margin-bottom: 1em;
-}
-
-.searchResults h2, .searchResults h3 {
-	grid-column: start / end;
-	margin: 0;
 }

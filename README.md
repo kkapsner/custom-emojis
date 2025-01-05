@@ -19,4 +19,5 @@ Microsoft Corporation, MIT <http://opensource.org/licenses/mit-license.php>, via
 
 ### Emoji list
  * Original emoji list: https://www.unicode.org/emoji/charts/full-emoji-list.html (December 2024 - v16)
+ * Emoji variation list: https://www.unicode.org/Public/16.0.0/ucd/emoji/emoji-variation-sequences.txt
  * German translation of the emojis taken from https://emojis.wiki/de/alle-emojis/
